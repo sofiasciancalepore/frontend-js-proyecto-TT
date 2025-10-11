@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px (62.5% de 16px) */
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: #f0dbbd;
+    color: #583000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #FF92CC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.header__logo a {
+    color:#FFD454;
+    text-decoration: none;
+}
+
+.header__nav {
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+.header__nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.header__nav li {
+    font-size: 2rem;
+    font-weight: light;
+}
+
+.header__nav a {
+    color:#583000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.footer {
+    background-color: #FFD454;
+    padding: 2rem;
+    color:#583000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer a {
+    color:#583000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.btn{
+    background-color: #FF53BD;
+    color: #F7D5A2;
+    cursor: pointer;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1.6rem;
+    border-radius: 1rem;
+}
+
+
+
+/*HOME*/
+
+main {
+    width: 90%;
+    flex: 1;
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-home {
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+
+.parrafo-home {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 80%;
+}
+
+.productos-home {
+    width: 100%;
+}
+
+.productos-home h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.tarjeta-producto {
+    background-color: #FF92CC;
+    color:#583000;
+    box-shadow: 0 5px 15px rgba(250, 174, 255, 0.15);
+    padding: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tarjeta-producto img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.tarjeta-producto h3 {
+    font-size: 2.5rem;
+}
+
+.tarjeta-producto p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+/*CONTACTO*/
+
+.titulo-contacto {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.form-contacto {
+    background-color: #FF92CC;
+    color:#583000;
+    width: 100%;
+    max-width: 50rem;
+    font-size: 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(251, 201, 255, 0.15);
+}
+
+.campo-form input,
+.campo-form textarea {
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 2px #583000;
+    margin-bottom: 3rem;
+}
+
+.campo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+

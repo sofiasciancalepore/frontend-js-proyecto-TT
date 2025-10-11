@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link de fuente google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <p class="header__logo">
+            <a href="../index.html">Dolcezza</a>
+        </p>
+        <nav class="header__nav">
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="seccion-contacto">
+        <h1 class="titulo-contacto">Contactanos</h1>
+        <form
+        class="form-contacto"
+        action="https://formspree.io/f/movnbqzj" 
+        method="post" 
+        >
+            <div class="campo-form">
+                <label for="email">Correo Electrónico:</label>
+                <input
+                id="email"
+                name="email"
+                type="email"
+                required/>
+            </div>
+
+            <div class="campo-form">
+                <label for="mensaje">Mensaje:</label>
+                <textarea
+                id="mensaje"
+                name="mensaje">
+                </textarea>
+            </div>
+
+            <input type="hidden" name="subject" value="Contacto desde el sitio"/>
+
+            <button class="btn" type="submit">Enviar</button>
+        </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados, 2025</p>
+        <nav>
+            <ul>
+                <li><a href="https://www.instagram.com/dolcezzaartesanal_/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559869352626#">Facebook</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
